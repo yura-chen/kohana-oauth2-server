@@ -8,14 +8,16 @@
 		"issues": "https://github.com/yura-chen/kohana-oauth2-server/issues",
 		"source": "https://github.com/yura-chen/kohana-oauth2-server"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/yura-chen/oauth2-server-php"
+		}
+	],
 	"require": {
 		"php": ">=5.3.3",
 		"kohana/core": "~3.0",
 		"composer/installers": "~1.0",
-		"yura-chen/oauth2-server-php": "dev-master"
-	},
-	"repositories": [{
-		"type": "vcs",
-		"url": "https://github.com/yura-chen/oauth2-server-php"
-	}]
+		"yura-chen/oauth2-server-php": "1.6"
+	}
 }
